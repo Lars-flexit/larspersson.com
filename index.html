@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Lars Persson — Technical co-founder, Scita Health</title>
-  <meta name="description" content="Technical co-founder of Scita Health. Building compliant, sovereign health data infrastructure across Sweden, Denmark, and the EU — MDR, EUDI Wallet, AI sandbox. 25+ years in healthcare IT." />
+  <meta name="description" content="Technical co-founder of Scita Health. Building compliant, sovereign health data infrastructure across Sweden, Denmark, and the EU — MDR, EUDI Wallet, AI sandbox. 25+ years in healthcare and enterprise IT." />
   <meta property="og:title" content="Lars Persson — Technical co-founder, Scita Health" />
-  <meta property="og:description" content="Compliant, sovereign health data infrastructure for Sweden, Denmark, and the EU. 25+ years in healthcare IT." />
+  <meta property="og:description" content="Compliant, sovereign health data infrastructure for Sweden, Denmark, and the EU. 25+ years in healthcare and enterprise IT." />
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://larspersson.com/" />
   <meta property="og:image" content="https://larspersson.com/images/LP_vest.jpeg" />
@@ -17,7 +17,7 @@
   <meta property="profile:last_name" content="Persson" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Lars Persson — Technical co-founder, Scita Health" />
-  <meta name="twitter:description" content="Compliant, sovereign health data infrastructure for Sweden, Denmark, and the EU. 25+ years in healthcare IT." />
+  <meta name="twitter:description" content="Compliant, sovereign health data infrastructure for Sweden, Denmark, and the EU. 25+ years in healthcare and enterprise IT." />
   <meta name="twitter:image" content="https://larspersson.com/images/LP_vest.jpeg" />
   <meta name="author" content="Lars Persson" />
   <meta name="keywords" content="Lars Persson, Scita Health, FlexIT, Green Frog Brewery, technical co-founder, healthcare IT, MDR, EUDI Wallet, GDPR, ISO, compliance architecture, post-merger integration, sovereign health data, Copenhagen, Denmark, Trelleborg, Sweden, Blågula Bilen" />
@@ -36,7 +36,7 @@
     "url": "https://larspersson.com/",
     "image": "https://larspersson.com/images/LP_vest.jpeg",
     "jobTitle": "Technical co-founder, Scita Health",
-    "description": "Building compliant, sovereign health data infrastructure across Sweden, Denmark, and the EU — MDR, EUDI Wallet, AI sandbox. 25+ years in healthcare IT.",
+    "description": "Building compliant, sovereign health data infrastructure across Sweden, Denmark, and the EU — MDR, EUDI Wallet, AI sandbox. 25+ years in healthcare and enterprise IT.",
     "worksFor": [
       {
         "@type": "Organization",
@@ -65,6 +65,12 @@
       "https://flexit.tech/",
       "https://greenfrog.beer/",
       "https://github.com/Lars-flexit"
+    ],
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Lund University"
+      }
     ],
     "knowsAbout": [
       "Healthcare IT",
@@ -100,7 +106,6 @@
       --muted: #5a646b;
       --accent: #1e3a52;
       --accent-light: rgba(30, 58, 82, 0.08);
-      --accent-hover: #16293b;
       --card: #ffffff;
       --bg: #f6f3ee;
       --border: #e8ebe8;
@@ -183,6 +188,16 @@
       margin-bottom: 20px;
     }
 
+    .credential-note {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: #3a5a72;
+      letter-spacing: 0.01em;
+      margin-top: -2px;
+      margin-bottom: 4px;
+    }
+
     .pitch {
       color: var(--muted);
       font-size: 1.05rem;
@@ -224,7 +239,7 @@
       color: #fff;
     }
 
-    .links a.primary:hover { background: var(--accent-hover); }
+    .links a.primary:hover { background: #14283a; }
 
     .links a.secondary {
       background: var(--accent-light);
@@ -324,6 +339,22 @@
       padding-bottom: 0;
     }
 
+    .venture-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+      min-width: 0;
+    }
+
+    .venture-header > div { min-width: 0; flex: 1; }
+
+    .venture-logo {
+      height: 36px;
+      width: auto;
+    }
+
     .venture h3 {
       font-family: "Fraunces", serif;
       font-size: 1.15rem;
@@ -336,8 +367,6 @@
       font-size: 0.85rem;
       font-weight: 600;
       color: var(--accent);
-      margin-top: 4px;
-      margin-bottom: 6px;
     }
 
     .venture p {
@@ -351,6 +380,15 @@
       flex-wrap: wrap;
       gap: 8px;
       margin-top: 12px;
+    }
+
+    .stat {
+      background: #fdf6e3;
+      color: #92400e;
+      border-radius: 999px;
+      padding: 5px 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
     }
 
     .tech {
@@ -465,6 +503,21 @@
       color: var(--muted);
     }
 
+    .details {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    .details p {
+      font-size: 0.92rem;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+
+    .details p:first-child { margin-top: 0; }
+    .details strong { color: var(--ink); }
+
     /* ---- Footer ---- */
     footer {
       text-align: center;
@@ -491,6 +544,7 @@
         border-radius: 20px;
       }
       .subtitle { font-size: 1rem; }
+      .credential-note { font-size: 0.78rem; }
       .pitch { font-size: 0.98rem; }
       .why { text-align: left; font-size: 0.95rem; }
       .links { justify-content: center; gap: 8px; }
@@ -533,7 +587,7 @@
       <img src="images/LP_vest.jpeg" alt="Lars Persson" class="hero-photo" />
       <div class="hero-text">
         <div class="subtitle">Technical co-founder, Scita Health</div>
-        <p class="pitch">Building compliant, sovereign health data infrastructure across Sweden, Denmark, and the EU &mdash; MDR, EUDI Wallet, AI sandbox. 25+ years in healthcare IT.</p>
+        <p class="pitch">Building compliant, sovereign health data infrastructure across Sweden, Denmark, and the EU &mdash; MDR, EUDI Wallet, AI sandbox. 25+ years in healthcare and enterprise IT.</p>
         <div class="why">Every decision has to be explainable, governable, and auditable.</div>
         <div class="links">
           <a class="primary" href="https://scita.health">scita.health</a>
@@ -553,9 +607,14 @@
         <h2>Building Now</h2>
 
         <div class="venture">
-          <h3>Scita Health</h3>
-          <div class="role-label">Technical co-founder &middot; Founding architect &middot; Jul 2024 &ndash; Present</div>
-          <p>AI-powered precision prevention platform for women navigating perimenopause and menopause. I designed the technical infrastructure using modern composable tools &mdash; Xano, Pinecone, n8n, Claude API &mdash; wrapped in compliance frameworks I've implemented at enterprise scale. Every decision explainable, governable, auditable.</p>
+          <div class="venture-header">
+            <img src="images/Scita_Health_Logo.png" alt="Scita Health" class="venture-logo" />
+            <div>
+              <h3>Scita Health</h3>
+              <div class="role-label">Technical co-founder &middot; Founding architect &middot; Jul 2024 &ndash; Present</div>
+            </div>
+          </div>
+          <p>I'm not a software developer. I'm the one who makes sure the system holds together &mdash; technically, operationally, and regulatorily. At Scita I designed the technical infrastructure for an AI-powered precision prevention platform for women navigating perimenopause and menopause, built on modern composable tools wrapped in compliance frameworks I've run at enterprise scale. Every decision explainable, governable, auditable.</p>
           <div class="tags">
             <span class="tech">MDR</span>
             <span class="tech">EUDI Wallet</span>
@@ -568,9 +627,14 @@
         </div>
 
         <div class="venture">
-          <h3>FlexIT</h3>
-          <div class="role-label">Founder &middot; Active</div>
-          <p>Enterprise IT wisdom meets AI-era building. Advisory work for health and life sciences ventures facing post-merger tech integration, AI readiness in regulated environments, compliance architecture (GDPR, MDR, ISO), and interim technical leadership during transitions. Also where I publish Field Notes &mdash; what I'm learning building with AI as a non-traditional developer.</p>
+          <div class="venture-header">
+            <img src="images/FlexIT_Logo.png" alt="FlexIT" class="venture-logo" />
+            <div>
+              <h3>FlexIT</h3>
+              <div class="role-label">Founder &middot; Active</div>
+            </div>
+          </div>
+          <p>Enterprise IT wisdom meets AI-era building. Advisory work for health and life-sciences ventures facing post-merger tech integration, AI readiness in regulated environments, compliance architecture (GDPR, MDR, ISO), and interim technical leadership through transitions. Also where I publish Field Notes &mdash; what I'm learning building with AI as a non-traditional developer.</p>
           <div class="tags">
             <span class="tech">Consulting</span>
             <span class="tech">Advisory</span>
@@ -582,9 +646,14 @@
         </div>
 
         <div class="venture">
-          <h3>Green Frog Brewery</h3>
-          <div class="role-label">Founder &amp; Brewer &middot; Trelleborg, Sweden</div>
-          <p>Small-batch craft brewery in Sk&aring;ne. 13 varieties hand-brewed in 23-liter batches on Grainfather equipment &mdash; from classic pilsner and stout to an unusual low- and non-alcoholic line. Beer crafted for special occasions without trading enjoyment for wellbeing. The same craft instinct that shapes everything else.</p>
+          <div class="venture-header">
+            <img src="images/Green_Frog_Logo.jpeg" alt="Green Frog Brewery" class="venture-logo" />
+            <div>
+              <h3>Green Frog Brewery</h3>
+              <div class="role-label">Founder &amp; Brewer &middot; Trelleborg, Sweden</div>
+            </div>
+          </div>
+          <p>A small-batch craft brewery in Sk&aring;ne. 13 varieties hand-brewed in 23-litre batches on Grainfather equipment &mdash; from classic pilsner and stout to an unusual low- and non-alcoholic line. Beer for special occasions that doesn't trade enjoyment for wellbeing. The same craft instinct that shapes everything else.</p>
           <div class="tags">
             <span class="tech">Hantverks&ouml;l</span>
             <span class="tech">13 varieties</span>
@@ -597,34 +666,39 @@
       <!-- Where I Stand — quieter, prose-led -->
       <section class="prose-section">
         <h2>Driving with Bl&aring;gula Bilen</h2>
-        <p>Since Russia invaded Ukraine in February 2022, I have been volunteering with <strong>Bl&aring;gula Bilen</strong> &mdash; a Swedish non-partisan, non-religious organisation founded by Take Aanstoot. Volunteers buy used 4&times;4s and trucks, fix them, fill them with equipment and medical supplies, and drive them to Ukraine, where both the vehicles and the cargo are donated to Ukrainian defence forces and civilian populations. As of early 2026, the organisation has delivered more than 1,400 vehicles.</p>
-        <p class="muted">Smart, proactive support for Ukraine is also smart, proactive defence for Scandinavia. Sovereign infrastructure, compliance, and resilience are not abstractions &mdash; they are what holds when things break. The same instinct shapes the work at Scita and FlexIT.</p>
+        <p>Since Russia invaded Ukraine in February 2022, I've volunteered with <strong>Bl&aring;gula Bilen</strong> &mdash; a Swedish non-partisan, non-religious organisation founded by Take Aanstoot. Volunteers buy used 4&times;4s and trucks, fix them, fill them with equipment and medical supplies, and drive them to Ukraine, where both the vehicles and the cargo are donated to Ukrainian defence forces and civilian populations. As of early 2026, the organisation has delivered more than 1,400 vehicles.</p>
+        <p class="muted">Smart, proactive support for Ukraine is also smart, proactive defence for Scandinavia. Sovereign infrastructure, compliance, and resilience aren't abstractions &mdash; they're what holds when things break. The same instinct shapes the work at Scita and FlexIT.</p>
         <p><a href="https://blagulabilen.se">blagulabilen.se</a> &mdash; about, donate, volunteer</p>
       </section>
 
       <!-- Track Record -->
       <section class="section full" data-d="3">
         <h2>Track Record</h2>
-        <p class="pitch" style="margin-bottom:18px;">25+ years in healthcare IT &mdash; post-merger integrations that can't fail, compliance frameworks that survive audits, legacy modernisation without burning down the house. The unsexy work that breaks at 3am.</p>
+        <p class="pitch" style="margin-bottom:18px;">25+ years in enterprise IT across healthcare, medtech, and manufacturing &mdash; post-merger integrations that can't fail, compliance frameworks that survive audits, legacy modernisation without burning down the house. The unsexy work that breaks at 3am.</p>
 
         <div class="career-item">
-          <div class="title-row">Occlutech <span class="dates">Year range TBC</span></div>
-          <div class="highlight">Medical devices.</div>
+          <div class="title-row">European Life Care Group <span class="dates">2023 &ndash; 2024</span></div>
+          <div class="highlight">Interim CIO. Built the IT strategy behind expansion across <strong>five European countries</strong>; reported directly to CEO and board.</div>
         </div>
 
         <div class="career-item">
-          <div class="title-row">Attendo <span class="dates">Year range TBC</span></div>
-          <div class="highlight">Care delivery.</div>
+          <div class="title-row">Occlutech <span class="dates">2018 &ndash; 2022</span></div>
+          <div class="highlight">IT Director. Standardised IT across international medical-device sites for a <strong>40% efficiency gain</strong>; migrated infrastructure to cloud at <strong>99.9% uptime</strong>. Management team member.</div>
         </div>
 
         <div class="career-item">
-          <div class="title-row">PE-backed healthcare rollups <span class="dates">Year range TBC</span></div>
-          <div class="highlight">Integration leadership.</div>
+          <div class="title-row">Attendo <span class="dates">2016 &ndash; 2018</span></div>
+          <div class="highlight">Deputy Head of IT. Ran Nordic IT governance across Sweden, Norway and Denmark &mdash; <strong>14,000+ users</strong> on standardised service delivery.</div>
         </div>
 
         <div class="career-item">
-          <div class="title-row">Earlier roles <span class="dates">TBC</span></div>
-          <div class="highlight">To be filled in.</div>
+          <div class="title-row">Icopal <span class="dates">2005 &ndash; 2014</span></div>
+          <div class="highlight">CIO. ERP transformation delivering <strong>30% efficiency gain</strong> and <strong>25% cost reduction</strong>; scaled IT across international sites.</div>
+        </div>
+
+        <div class="career-item">
+          <div class="title-row">Earlier <span class="dates">1994 &ndash; 2005</span></div>
+          <div class="highlight">CIO, Arjo (medtech) &mdash; <strong>40% process automation</strong>. IT Manager, Lafarge Braas (manufacturing) &mdash; Nordic ERP implementation.</div>
         </div>
 
         <div class="competencies">
@@ -655,6 +729,12 @@
           <span>for general &middot;</span>
           <a href="mailto:lars@larspersson.com">lars@larspersson.com</a>
           <span>for press</span>
+        </div>
+
+        <div class="details">
+          <p><strong>Education:</strong> BSc Information Technology, Lund University</p>
+          <p><strong>Certifications:</strong> ITIL Foundation &middot; AWS Cloud Practitioner &middot; Certified Scrum Master &middot; MIT Digital Transformation &amp; AI &middot; UGL</p>
+          <p><strong>Languages:</strong> Swedish (native) &middot; English (fluent) &middot; Danish (conversational)</p>
         </div>
       </section>
 

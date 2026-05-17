@@ -20,3 +20,4 @@ vendor/
 
 # Brand guidelines and personal documents (keep local only)
 .agent/
+.vercel
