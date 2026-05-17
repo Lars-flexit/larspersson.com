@@ -1,0 +1,28 @@
+# Site
+repository: JuliaHappyLongevity/JuliaHappyLongevity.github.io
+url: "https://juliapersson.com"
+baseurl: ""
+
+# Metadata
+name: Julia Persson
+title: "Founder & CEO, Scita Health | Founding Architect, Nordic Charter for Women's Health 2040"
+email: julia@scita.health
+description: >-
+  Founder & CEO of Scita Health. Building AI-powered precision prevention for women
+  navigating perimenopause and menopause. Founding Architect, Nordic Charter for
+  Women's Health 2040, published in The Lancet.
+
+# Google Analytics
+google_analytics: G-EMBYLELM4B
+
+# Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - preview.html
+  - .agent
+  - README.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

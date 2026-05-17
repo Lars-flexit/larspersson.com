@@ -1,0 +1,22 @@
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby environment normalization
+.bundle/
+vendor/
+
+# Editor and system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Brand guidelines and personal documents (keep local only)
+.agent/
