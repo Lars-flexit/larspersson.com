@@ -1,44 +1,34 @@
-# Julia Persson
+# Lars Persson
 
-> Founder & CEO of Scita Health (Danish precision health company building AI-powered clinical decision support for women navigating perimenopause and menopause). Founding Architect of the Nordic Charter for Women's Health 2040, published in The Lancet (January 2026). Participant in the WHO/Europe Public Health Innovation Platform.
+> Technical co-founder of Scita Health (precision prevention platform for women in perimenopause and menopause). Founder of FlexIT (advisory practice for compliant, AI-era enterprise IT). Founder and brewer at Green Frog Brewery (small-batch craft brewery in Trelleborg, Sweden). 25+ years in healthcare IT — post-merger integration, compliance architecture, sovereign health data infrastructure.
 
-Julia Persson is a Copenhagen-based digital health founder and policy architect focused on closing the women's health gap in midlife. She brings 20+ years of digital transformation experience across regulated sectors (finance, healthcare) and now applies that to precision prevention for women.
+Lars Persson is a Copenhagen- and Trelleborg-based technical co-founder and compliance practitioner. He builds the infrastructure and frameworks (MDR, EUDI Wallet, GDPR, ISO) that keep regulated systems explainable, governable, and auditable. Since February 2022 he has also been an active volunteer driver with Blågula Bilen, delivering vehicles and supplies to Ukraine.
 
 ## About
 
-- [Main bio](https://juliapersson.com/): Founder profile, current ventures, track record, and connect links.
-- [Press kit](https://juliapersson.com/press/): Speaker topics, short and long bios, headshots, organisation logos, PDF one-pager, Lancet citation, and press contacts.
+- [Main bio](https://larspersson.com/): Profile, current ventures, Blågula Bilen volunteer work, track record, and contact.
 
 ## Current ventures
 
-- [Scita Health](https://scita.health): AI-powered clinical decision support tools helping women prevent chronic disease through a personalised, bio-adaptive approach. Focus on perimenopause and menopause. Soft launch August 2026, pilot (N=50) October 2026. Participating organisation in the WHO/Europe Public Health Innovation Platform.
-- [Nordic Charter for Women's Health 2040](https://womenshealth2040.org): Pan-Nordic coordination framework — open commons, not organisation. 136 contributors across 5 countries. Methodology published in The Lancet Obstetrics, Gynaecology, & Women's Health (January 2026). Implementation Playbook published 28 May 2026 at BLOX, Copenhagen, with the Copenhagen Institute for Futures Studies.
+- [Scita Health](https://scita.health): Technical co-founder and founding architect (Jul 2024 – Present). AI-powered precision prevention platform for women navigating perimenopause and menopause. Composable stack — Xano, Pinecone, n8n, Claude API — wrapped in enterprise-scale compliance frameworks (MDR, EUDI Wallet, AI Sandbox).
+- [FlexIT](https://flexit.tech): Founder. Advisory work for health and life sciences ventures facing post-merger tech integration, AI readiness in regulated environments, compliance architecture (GDPR, MDR, ISO), and interim technical leadership. Also publishes Field Notes on building with AI as a non-traditional developer.
+- [Green Frog Brewery](https://greenfrog.beer): Founder and brewer, Trelleborg, Sweden. Small-batch craft brewery — 13 varieties hand-brewed in 23-liter batches on Grainfather equipment, including an unusual low- and non-alcoholic line.
 
-## Advisory roles
+## Where I Stand
 
-- Women's Health Horizons — EU Strategic Advisory Board (women's health policy, healthcare, investment).
-- myHealth@myHands — EU Digital Europe Programme advisory (citizen-controlled health data via EUDI Wallet).
-- 123cards — Board Director (intergenerational communication).
+- [Blågula Bilen](https://blagulabilen.se): Volunteer driver since February 2022. Swedish non-partisan, non-religious organisation founded by Take Aanstoot. Volunteers buy used 4×4s and trucks, fix them, fill them with equipment and medical supplies, and drive them to Ukraine. As of early 2026, more than 1,400 vehicles delivered.
 
-## Publications
+## Track Record
 
-- Persson J, Gemzell-Danielsson K, Krivonos D. The Nordic Charter for Women's Health 2040: Vision-Led Architecture for Women's Health. Lancet Obstet Gynecol Womens Health. 2026. https://doi.org/10.1016/S3050-5038(26)00014-2
+25+ years in healthcare IT — post-merger integrations, compliance frameworks that survive audits, legacy modernisation. Companies include Occlutech (medical devices), Attendo (care delivery), and PE-backed healthcare rollups (integration leadership). Year ranges TBC.
 
 ## Contact
 
-- Press / Scita Health: julia@scita.health
-- Nordic Charter (WH2040): julia@womenshealth2040.org
-- LinkedIn: https://www.linkedin.com/in/julia-persson-digital-transformation/
-- Location: Copenhagen, Denmark
-
-## Speaker topics
-
-- Perimenopause and menopause as a prevention window — the most underused prevention window in modern medicine.
-- The Nordic Charter for Women's Health 2040: closing the 17-year research-to-care gap.
-- AI in women's health: trust, bias, and what we're building for a generation.
-- Building AI-native healthtech as a non-traditional founder.
-- Women's health as economic opportunity: from payer to partner.
+- General: lars@flexit.tech
+- Press: lars@larspersson.com
+- LinkedIn: https://www.linkedin.com/in/larsolovpersson-it-director/
+- Locations: Copenhagen, Denmark · Trelleborg, Sweden
 
 ## Areas of expertise
 
-Women's health, chronic disease prevention, AI-powered clinical decision support, precision health, digital health innovation, perimenopause and menopause, European Health Data Space, Nordic health policy, multi-stakeholder coordination, MDR medical device regulation.
+Healthcare IT, post-merger technology integration, compliance architecture, GDPR, MDR medical device regulation, ISO standards, EUDI Wallet, European Health Data Space, sovereign health data infrastructure, AI in regulated environments, AI-era building as a non-traditional developer.

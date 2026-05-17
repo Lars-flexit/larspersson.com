@@ -1,27 +1,26 @@
 # Site
-repository: JuliaHappyLongevity/JuliaHappyLongevity.github.io
-url: "https://juliapersson.com"
+repository: Lars-flexit/larspersson.com
+url: "https://larspersson.com"
 baseurl: ""
 
 # Metadata
-name: Julia Persson
-title: "Founder & CEO, Scita Health | Founding Architect, Nordic Charter for Women's Health 2040"
-email: julia@scita.health
+name: Lars Persson
+title: "Technical co-founder, Scita Health | Founder, FlexIT | Founder & Brewer, Green Frog Brewery"
+email: lars@flexit.tech
 description: >-
-  Founder & CEO of Scita Health. Building AI-powered precision prevention for women
-  navigating perimenopause and menopause. Founding Architect, Nordic Charter for
-  Women's Health 2040, published in The Lancet.
+  Building compliant, sovereign health data infrastructure across Sweden, Denmark,
+  and the EU — MDR, EUDI Wallet, AI sandbox. 25+ years in healthcare IT. Technical
+  co-founder at Scita Health, founder of FlexIT and Green Frog Brewery.
 
-# Google Analytics
-google_analytics: G-EMBYLELM4B
+# Google Analytics (leave blank until configured)
+google_analytics: ""
 
 # Build
 exclude:
   - Gemfile
   - Gemfile.lock
-  - preview.html
-  - .agent
   - README.md
+  - vercel.json
 
 plugins:
   - jekyll-seo-tag
