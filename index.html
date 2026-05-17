@@ -286,9 +286,43 @@
       font-family: "Fraunces", serif;
       font-size: 1.5rem;
       font-weight: 500;
-      margin-bottom: 16px;
-      border-left: 3px solid var(--accent);
+      margin-bottom: 4px;
+      position: relative;
       padding-left: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    /* Bicolour left stripe — Ukrainian flag */
+    .prose-section h2::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 4px;
+      bottom: 4px;
+      width: 3px;
+      background: linear-gradient(to bottom, #0057B7 0%, #0057B7 50%, #FFD500 50%, #FFD500 100%);
+      border-radius: 2px;
+    }
+
+    .ua-flag {
+      display: inline-block;
+      width: 22px;
+      height: 15px;
+      border-radius: 2px;
+      box-shadow: 0 0 0 1px rgba(20, 22, 23, 0.1);
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+
+    .prose-section .uk-subtitle {
+      font-family: "Fraunces", serif;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin: 0 0 18px 14px;
     }
 
     .prose-section p {
@@ -306,6 +340,23 @@
     }
 
     .prose-section a { color: var(--accent); font-weight: 600; }
+
+    .uk-tribute {
+      margin-top: 18px;
+      padding: 14px 18px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(0, 87, 183, 0.06), rgba(255, 213, 0, 0.10));
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      max-width: 520px;
+      font-family: "Fraunces", serif;
+      font-style: italic;
+      color: #0057B7;
+      font-size: 1rem;
+    }
+
+    .uk-tribute .ua-flag { width: 26px; height: 18px; }
 
     @keyframes rise {
       from { opacity: 0; transform: translateY(14px); }
@@ -351,8 +402,9 @@
     .venture-header > div { min-width: 0; flex: 1; }
 
     .venture-logo {
-      height: 36px;
+      height: 40px;
       width: auto;
+      object-fit: contain;
     }
 
     .venture h3 {
@@ -665,10 +717,24 @@
 
       <!-- Where I Stand — quieter, prose-led -->
       <section class="prose-section">
-        <h2>Driving with Bl&aring;gula Bilen</h2>
+        <h2>
+          Driving with Bl&aring;gula Bilen
+          <svg class="ua-flag" viewBox="0 0 30 20" role="img" aria-label="Flag of Ukraine">
+            <rect width="30" height="10" fill="#0057B7"/>
+            <rect y="10" width="30" height="10" fill="#FFD500"/>
+          </svg>
+        </h2>
+        <p class="uk-subtitle" lang="uk">&laquo;Синьо-жовта машина&raquo; &mdash; the blue-and-yellow car.</p>
         <p>Since Russia invaded Ukraine in February 2022, I've volunteered with <strong>Bl&aring;gula Bilen</strong> &mdash; a Swedish non-partisan, non-religious organisation founded by Take Aanstoot. Volunteers buy used 4&times;4s and trucks, fix them, fill them with equipment and medical supplies, and drive them to Ukraine, where both the vehicles and the cargo are donated to Ukrainian defence forces and civilian populations. As of early 2026, the organisation has delivered more than 1,400 vehicles.</p>
         <p class="muted">Smart, proactive support for Ukraine is also smart, proactive defence for Scandinavia. Sovereign infrastructure, compliance, and resilience aren't abstractions &mdash; they're what holds when things break. The same instinct shapes the work at Scita and FlexIT.</p>
         <p><a href="https://blagulabilen.se">blagulabilen.se</a> &mdash; about, donate, volunteer</p>
+        <div class="uk-tribute" lang="uk">
+          <svg class="ua-flag" viewBox="0 0 30 20" role="img" aria-label="Flag of Ukraine">
+            <rect width="30" height="10" fill="#0057B7"/>
+            <rect y="10" width="30" height="10" fill="#FFD500"/>
+          </svg>
+          <span>Слава Україні! Героям слава!</span>
+        </div>
       </section>
 
       <!-- Track Record -->
