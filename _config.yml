@@ -9,8 +9,9 @@ title: "Technical co-founder, Scita Health | Founder, FlexIT | Founder & Brewer,
 email: lars@flexit.tech
 description: >-
   Building compliant, sovereign health data infrastructure across Sweden, Denmark,
-  and the EU — MDR, EUDI Wallet, AI sandbox. 25+ years in healthcare IT. Technical
-  co-founder at Scita Health, founder of FlexIT and Green Frog Brewery.
+  and the EU — designed for the regulatory path ahead. 25+ years in healthcare and
+  enterprise IT. Technical co-founder at Scita Health, founder of FlexIT and Green
+  Frog Brewery.
 
 # Google Analytics (leave blank until configured)
 google_analytics: ""
@@ -21,6 +22,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - vercel.json
+  - larspersson-content.md
+  - vendor/
 
 plugins:
   - jekyll-seo-tag
