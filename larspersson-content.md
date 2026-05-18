@@ -145,7 +145,7 @@ GDPR · MDR · ISO · Post-merger integration · Compliance architecture · AI-e
 **Link:** scita.health
 
 **Direct email line below the cards:**
-lars@flexit.tech for general · lars@larspersson.com for press
+lars@flexit.tech
 
 **Details block (optional — Julia has the equivalent):**
 - **Education:** BSc Information Technology, Lund University
