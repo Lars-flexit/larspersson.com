@@ -11,7 +11,7 @@ When in doubt, match Julia's `index.html` exactly. Only deviate where this file 
 - **Accent:** deep slate blue `#1e3a52`
 - **LinkedIn:** https://www.linkedin.com/in/larsolovpersson-it-director/
 - **Footer location:** Copenhagen, Denmark · Trelleborg, Sweden
-- **Press email:** lars@larspersson.com
+- **Email:** lars@flexit.tech (single address — no separate press alias)
 - **Logos available:** Scita, FlexIT, Green Frog — all three cards are logo'd (like Julia's Scita/WH2040 cards).
 - **Press link:** OMIT it. Julia's hero has a top-right "Press kit →" link to `/press/`. Lars has no `/press` page yet — remove the link entirely, do not leave a dead one. Also delete `press.html` from the copied repo.
 
@@ -165,5 +165,4 @@ Copenhagen, Denmark · Trelleborg, Sweden · larspersson.com · References on re
 - DNS at Namecheap (A records → host)
 - larspersson.eu → .com redirect via Cloudflare (currently handled by Vercel-native 308)
 - SPF / DKIM / DMARC records (DKIM key generated in the email provider's admin console — confirm provider before copying the WH2040 template)
-- lars@larspersson.com email forwarding
 - Final voice pass on all copy (the above is a strong draft — Lars sharpens it)

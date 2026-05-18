@@ -10,8 +10,7 @@ Volunteer driver with [Blågula Bilen](https://blagulabilen.se) — delivering v
 
 ## Contact
 
-- General: lars@flexit.tech
-- Press: lars@larspersson.com
+- Email: lars@flexit.tech
 - [LinkedIn](https://www.linkedin.com/in/larsolovpersson-it-director/)
 
 ## Site
