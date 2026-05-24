@@ -99,10 +99,10 @@ Smart, proactive support for Ukraine is also smart, proactive defence for Scandi
 **Inline link:** blagulabilen.se — about, donate, volunteer
 
 **Ukrainian additions (Lars-specific, beyond Julia's template):**
-- Inline Ukrainian flag SVG next to the heading
+- Inline Blågula Bilen logo (images/Blagula_Bilen_Logo.png) next to the heading
 - Bicolour blue/yellow left stripe on the heading
-- Italic Cyrillic subtitle under the heading: «Синьо-жовта машина» — the blue-and-yellow car
-- Closing flag-coloured tribute card: "Слава Україні! Героям слава!"
+- Italic Cyrillic subtitle under the heading: «Жовто-блакитний автомобіль» — the yellow-and-blue car
+- Closing flag-coloured tribute card with Ukrainian flag SVG: "Слава Україні! Героям слава!"
 - All Cyrillic text marked `lang="uk"`
 
 ---
